@@ -5,14 +5,14 @@ import { updateCPFRates } from "./utils/api-utils";
 // Create a Map to store route handlers
 const routes = new Map<string, (req: Request) => Promise<Response>>();
 
+routes.set('/', async (req: Request) => {
+  return new Response("Please use /api/cpf to calculate CPF", { status: 200 });
+});
+
 export function registerRoute(path: string, handler: (req: Request) => Promise<Response>) {
   const BASE_PATH = '/api';
   routes.set(BASE_PATH + path, handler);
 }
-
-registerRoute('/', async (req: Request) => {
-  return new Response("Please use /api/cpf to calculate CPF", { status: 200 });
-});
 
 registerRoute('/cpf', cpfHandler);
 
