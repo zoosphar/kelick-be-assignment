@@ -10,6 +10,10 @@ export function registerRoute(path: string, handler: (req: Request) => Promise<R
   routes.set(BASE_PATH + path, handler);
 }
 
+registerRoute('/', async (req: Request) => {
+  return new Response("Please use /api/cpf to calculate CPF", { status: 200 });
+});
+
 registerRoute('/cpf', cpfHandler);
 
 updateCPFRates("daily");
