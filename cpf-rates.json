@@ -1,0 +1,42 @@
+{
+  "lastUpdated": "2025-01-23T16:28:29.145Z",
+  "3rdYearSPR": {
+    "totalRate": "37.0000",
+    "employeeRate": "20.0000",
+    "wageCeiling": "7400.00"
+  },
+  "1stYearSPR": {
+    "GG": {
+      "totalRate": "9.0000",
+      "employeeRate": "5.0000",
+      "wageCeiling": "7400.00"
+    },
+    "FG": {
+      "totalRate": "22.0000",
+      "employeeRate": "5.0000",
+      "wageCeiling": "7400.00"
+    },
+    "FF": {
+      "totalRate": "37.0000",
+      "employeeRate": "20.0000",
+      "wageCeiling": "7400.00"
+    }
+  },
+  "2ndYearSPR": {
+    "GG": {
+      "totalRate": "24.0000",
+      "employeeRate": "15.0000",
+      "wageCeiling": "7400.00"
+    },
+    "FG": {
+      "totalRate": "32.0000",
+      "employeeRate": "15.0000",
+      "wageCeiling": "7400.00"
+    },
+    "FF": {
+      "totalRate": "37.0000",
+      "employeeRate": "20.0000",
+      "wageCeiling": "7400.00"
+    }
+  }
+}
